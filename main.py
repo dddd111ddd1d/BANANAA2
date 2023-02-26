@@ -18,13 +18,14 @@ class Cat:
     self.age = age
     self.color = color
 
-  def play_w_homan(self, human)
+  def play_w_homan(self, human):
+    human.is_sad = False
     
 
 me = Person("Banana", 5006)
-my_pet = Cat()
+my_pet = Cat("Vova")
+
+print(me.is_sad)
 
 
 
-
-you = Person()
